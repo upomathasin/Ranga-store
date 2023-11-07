@@ -4,7 +4,7 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title> Ranga Store</title>
+      <title>Color Shopping Store</title>
       <link rel="stylesheet" href="./css/style.css" />
       <!-- Latest compiled and minified CSS -->
       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -47,7 +47,7 @@
                      id="input-value"
                   />
                   <button
-                     class="input-group-text px-4 bg-success"
+                     class="input-group-text px-4 bg-primary"
                      id="search-btn"
                   >
                      <i class="bi bi-search text-white fw-bold"></i>
@@ -63,10 +63,11 @@
                <span class="text-success" id="total_products"></span>
             </h2>
          </div>
-         <div class="row">
+         <div class="row ">
             <div class="col-md-9 col-lg-9 col-sm-7">
-               <div id="all-products" class="">
+               <div id="all-products" class="row p-4">
                   <h1></h1>
+              
                </div>
             </div>
 
@@ -75,7 +76,7 @@
                   <table class="table">
                      <thead>
                         <h1
-                           class="text-center text-white bg-success py-1 rounded"
+                           class="text-center text-white bg-primary py-1 rounded"
                         >
                            My-Cart <i class="bi bi-cart4"></i>
                         </h1>
@@ -90,7 +91,7 @@
                         <tr>
                            <th>Total Added-Products:</th>
                            <!-- here will be no dollar sign -->
-                           <td>$<span id="total-Products">0</span></td>
+                           <td><span id="total-Products">0</span></td>
                            <td></td>
                            <td></td>
                         </tr>
@@ -120,7 +121,7 @@
                      </tbody>
                   </table>
                   <div class="parces text-center">
-                     <button class="btn btn-success text-center">
+                     <button class="btn btn-primary text-center">
                         Buy Now
                      </button>
                   </div>
